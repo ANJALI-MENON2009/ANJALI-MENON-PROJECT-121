@@ -1,0 +1,119 @@
+.header img {
+    width:100px; 
+}
+#g_lens {
+  width:40px;
+
+}
+#recog {
+  width:65px;
+}
+.header {
+    background-color: white;
+    color:red;
+}
+.vs {
+  background-color: #4ddde0;
+  box-shadow: 0 0 10px rgb(97, 198, 231);
+  font-family: 'Pacifico', cursive;
+}
+body {
+    background-color: rgb(152, 118, 233); 
+    font-family: 'Playball', cursive;
+}
+.modal-img img{
+    width: 300px;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .preview img {
+    width: 40%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .preview .btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(73, 73, 73);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    width:293px;
+    border-radius: 0;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 0.3px;
+  }
+  
+  .preview .btn:hover {
+    background-color: black;
+  }
+.modal-content {
+      background-color: rgb(233, 118, 233);
+      box-shadow: 5px 8px 13px black;
+}
+b {
+  color: purple;
+}
+.copy_right_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #444444;
+  line-height: 3;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  color:white;
+  font-weight: 600;
+  font-size: 19px;
+}
+::selection {
+  color: white;
+  background: black;
+}
+@media only screen and (max-width: 430px) {
+  #img {
+    width: 195px;
+  }
+  .preview .btn {
+    width:195px;
+    margin-left:6px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #img {
+    width: 210px;
+  }
+  .preview .btn {
+    width:211px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  #img {
+    width: 190px;
+  }
+  .preview .btn {
+    width:190px;
+    margin-left:16.5px;
+  }
+}
+@media only screen and (min-width: 768px) {
+#g_lens {
+  margin-bottom:15px;
+}
+.vs {
+  width:fit-content ;
+  float:none ;
+  padding-right: 30px;
+  padding-left: 25px;
+}
+}
